@@ -4,8 +4,9 @@ using bytebank_GeradorChavePix;
 
 Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
 
-//new ByteBankAtendimento().AtendimentoCliente();
+new ByteBankAtendimento().AtendimentoCliente();
 
+/*
 Console.WriteLine(GeradorPix.GetChavePix());
 
 List<string> listaDeChaves = GeradorPix.GetChavesPix(10);
@@ -14,7 +15,7 @@ foreach (string chave in listaDeChaves)
 {
     Console.WriteLine(chave);
 }
-
+*/
 /*
 public class Estagiario : Funcionario
 {
